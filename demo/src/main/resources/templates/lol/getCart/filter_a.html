@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Смотреть карты</title>
+</head>
+<body>
+<form action="http://localhost:8080/Verified/getCart">
+    <p>Фильтры:</p>
+    <p>Сезон: <input type="text" name="sezon"> (зима или лето)</p>
+    <p>Масштаб 1: <input type="text" name="mashtab"></p>
+    <p>Сечение рельефа: <input type="text" name="relef">м</p>
+    <p>Местность: <input type="text" name="mesto"></p>
+    <p>Группа: <input type="text" name="group"> (формат М21 Ж21)</p>
+    <p>Вид: <input type="text" name="vid"> (только лонг, классика и спринт, рогейн, эстафета, выбор. внимательно на синтаксис)</p>
+    <p>Год: <input type="text" name="god"> (минимальный год карты)</p>
+
+    <input type="submit" value="Загрузитькарту карту" formenctype="text/plain">
+</form>
+</body>
+</html>
